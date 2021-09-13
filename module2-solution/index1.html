@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Module 2 solution</title>
+	<style>
+	* {
+		box-sizing: border-box;
+	}
+	h1 {
+		margin bottom: 15px;
+		font-family: Helvetica;
+		position: relative;
+		top: 60px;
+		left: 800px;
+	}
+	div#container {
+		position: relative;
+		float: left;
+	}
+	section {
+		width: 25%;
+		border: 2px solid black;
+		float: left;
+	}
+	#section1 {
+		background-color: pink;
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+	#section2 {
+		background-color: red;
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+	#section3 {
+		background-color: yellow;
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+	#div1 {
+        background-color: gray;
+        width: 300px;
+        height: 300px;
+        margin-left: 10px;
+        margin-right: 10px;
+        position: relative;
+        top: 80px;
+        left: 390px;
+        margin: 10px;
+        padding: 20px;
+        border: 3px solid black;
+	}
+	#div2 {
+		background-color: gray;
+        width: 300px;
+        height: 300px;
+        margin-right: 10px;
+        margin-left: 10px;
+        position: relative;
+        top: 80px;
+        left: 390px;
+        margin: 10px;
+        padding: 20px;
+        border: 3px solid black;
+	}
+	#div3 {
+		background-color: gray;
+        width: 300px;
+        height: 300px;
+        margin-left: 10px;
+        margin-right: 10px;
+        position: relative;
+        top: 80px;
+        left: 390px;
+        margin: 10px;
+        padding: 20px;
+        border: 3px solid black;
+	}
+	@media (min-width: 992px) {
+		#div1 {
+			width: 300px;
+			height: 150px;
+			margin-right: 10px;
+			margin-left: 10px;
+		}
+		#div2 {
+			width: 300px;
+			height: 150px;
+			margin-right: 10px;
+		}
+		#div3 {
+			width: 300px;
+			height: 150px;
+			margin-right: 10px;
+		}
+	}
+	@media (min-width: 768px) and (max-width: 991px) {
+		h1 {
+			position: relative;
+			left: 300px;
+		}
+		#div1 {
+			width: 40%;
+			height: 200px;
+			position: relative;
+			left: 30px;
+		}
+		#div2 {
+			width: 40%
+			height: 200px;
+			position: relative;
+			left: 30px;
+		}
+		#div3 {
+			width: 82%;
+			height: 200px;
+			position: relative;
+			left: 30px;
+		}
+	}
+	@media (max-width: 767px) {
+		h1 {
+			position: relative;
+			left: 230px;
+		}
+		#div1 {
+			width: 80%;
+			height: 200px;
+			position: relative;
+			left: 10px;
+		}
+		#div2 {
+			width: 80%;
+			height: 200px;
+			position: relative;
+			left: 10px;
+		}
+		#div3 {
+			width: 80%;
+			height: 200px;
+			position: relative;
+			left: 10px;
+		}
+	}
+
+</style>
+</head>
+<body>
+	<h1>Our Menu</h1>
+	<div id="container">
+	<div id="div1">
+		<section id="section1">Chicken</section>
+		Marqius de La Fayette:&quot;INSURRECTION IS THE MOST SACRED OF THE RIGHTS AND THE MOST INDISPENSIBLE OF DUTIES. RISE.&quot;
+	</div>
+    </div>
+    <div id="container">
+	<div id="div2">
+		<section id="section2">Beef</section>
+		Marqius de La Fayette:&quot;INSURRECTION IS THE MOST SACRED OF THE RIGHTS AND THE MOST INDISPENSIBLE OF DUTIES. RISE.&quot;
+	</div>
+    </div>
+    <div id="container">
+	<div id="div3">
+		<section id="section3">Sushi</section>
+		Marqius de La Fayette:&quot;INSURRECTION IS THE MOST SACRED OF THE RIGHTS AND THE MOST INDISPENSIBLE OF DUTIES. RISE.&quot;
+	</div>
+    </div>
+</body>
+</html>
